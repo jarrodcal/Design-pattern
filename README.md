@@ -1,2 +1,2 @@
 # Design-pattern
-观察者模式
+设计模式学习
