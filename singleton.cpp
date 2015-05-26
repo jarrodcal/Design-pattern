@@ -6,7 +6,7 @@ using namespace std;
 
 Singleton *Singleton::ptr = NULL;
 
-Singleton::getInstance()
+Singleton *Singleton::getInstance()
 {
     if (ptr == NULL)
         ptr = new Singleton();
@@ -14,7 +14,8 @@ Singleton::getInstance()
     return ptr;
 }
 
-void Test()
+void Singleton::Test()
 {
     cout<<"Test...."<<endl;
 }
+
