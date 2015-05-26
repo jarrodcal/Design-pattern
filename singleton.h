@@ -8,8 +8,8 @@
 class Singleton
 {
     public:
-        Singleton();
-        ~Singleton();
+        Singleton(){};
+        ~Singleton(){};
 
         static Singleton * getInstance();
         void Test();
@@ -18,4 +18,4 @@ class Singleton
         static Singleton *ptr;
 };
 
-#endif __SINGLETON_H__
+#endif
